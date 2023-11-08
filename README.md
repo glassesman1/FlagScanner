@@ -19,7 +19,7 @@ The XMAS scan transmits a TCP packet with the FIN, URG, and PSH flags set to the
 The ACK scan sends a TCP ACK packet to the target port. It is commonly used to detect the presence of a firewall or identify filtered ports. If the port is open, it might respond with a RST packet.
 
 **Here is an image illustrating how FlagScanner looks and how to use it:**
-![image](https://github.com/glassesman1/FlagScanner/assets/73016511/48297688-087a-4af6-9c42-43cee21d2937)
+![image](https://github.com/glassesman1/FlagScanner/blob/main/FlagScanner.png)
 
 - Enter the target domain name or host IP address.
 - Specify the ports you want to scan. You can enter individual ports like 80 and 443 (80,443), or define a range of ports like 1-1000.
